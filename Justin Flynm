@@ -1,0 +1,13 @@
+This exception was originally thrown at this call stack:
+    Avalonia.Visual.ValidateVisualChild(Avalonia.Visual)
+    Avalonia.Collections.AvaloniaList<T>.Add(T)
+    Avalonia.Controls.Presenters.ContentPresenter.UpdateChild(object)
+    Avalonia.Layout.Layoutable.MeasureCore(Avalonia.Size)
+    Avalonia.Layout.Layoutable.Measure(Avalonia.Size)
+    Avalonia.Layout.Layoutable.MeasureOverride(Avalonia.Size)
+    Avalonia.Layout.Layoutable.MeasureCore(Avalonia.Size)
+    Avalonia.Layout.Layoutable.Measure(Avalonia.Size)
+    Avalonia.Layout.StackLayout.GetAverageElementSize(Avalonia.Size, Avalonia.Layout.VirtualizingLayoutContext, Avalonia.Layout.StackLayoutState)
+    Avalonia.Layout.StackLayout.GetAnchorForRealizationRect(Avalonia.Size, Avalonia.Layout.VirtualizingLayoutContext)
+    ...
+    [Call Stack Truncated]
